@@ -65,29 +65,27 @@
 
 ## Установка и запуск
 
-### Для ноутбука (полные зависимости)
+### Создание окружения conda + установка через pip
 ```bash
-pip install -r requirements-full.txt
-```
+# Создаем пустое окружение с Python 3.10
+conda create -n cars_regression python=3.10 -y
 
-### Для Streamlit (минимальные)
-```bash
-pip install -r requirements.txt
-```
-
-### Вариант 2: conda
-```bash
-conda env create -f environment.yml
+# Активируем
 conda activate cars_regression
+
+# Устанавливаем зависимости через pip
+pip install -r requirements-full.txt
 ```
 
 ### Запуск ноутбука
 ```bash
+conda activate cars_regression
 jupyter notebook AI_HW1_Regression_with_inference_pro.ipynb
 ```
 
-### Запуск Streamlit (часть 2)
+### Запуск Streamlit
 ```bash
+conda activate cars_regression
 streamlit run app.py
 ```
 
