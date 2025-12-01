@@ -1,5 +1,7 @@
 # Домашнее задание номер 1!
 
+**Streamlit приложение:** https://h1-ml-cars-regression-wfwfnkdtwo4dx9s9hkkgoj.streamlit.app/
+
 ## Что было сделано
 
 ### Часть 1: EDA
