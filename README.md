@@ -65,7 +65,12 @@
 
 ## Установка и запуск
 
-### Вариант 1: pip
+### Для ноутбука (полные зависимости)
+```bash
+pip install -r requirements-full.txt
+```
+
+### Для Streamlit (минимальные)
 ```bash
 pip install -r requirements.txt
 ```
