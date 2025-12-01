@@ -1,0 +1,17 @@
+__pycache__/
+
+.ipynb_checkpoints/
+
+venv/
+env/
+.env/
+
+*.conda
+
+.vscode/
+
+.DS_Store
+
+*.csv
+
+
